@@ -1,0 +1,29 @@
+import 'dart:math' as math;
+void main() {
+  var str = 'this is a String';
+  var map={};
+  var s=0.0;
+  var j=0;
+  
+  while(j<=str.length-10){
+  	for(var i=j; i<j+10;i++){
+    	if(str[i]!=' '){
+        if(!map.containsKey(str[i]))
+        	map[str[i]]=1.0;
+      	else
+        	map[str[i]]+=1.0;
+      	s++;
+    	}
+  	}
+  	map.forEach((k,v){
+    	map[k]=v/s;
+  	});
+  
+  	var sum=0.0;
+ 		map.forEach((k,v){
+    	sum+=-v*math.log(v);
+  	});
+    j+=1;
+    print('strike $j: $sum');
+	}
+}
