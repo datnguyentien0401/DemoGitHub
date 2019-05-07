@@ -1,0 +1,472 @@
+.footer-area ul li {
+    margin-bottom: 10px; 
+}
+.footer-area ul li a {
+    transition: all 300ms linear 0s;
+    color: #8f8f8f; 
+}
+.footer-area ul li a:hover,.footer-area a:hover {
+    color: #f9cc41 !important; 
+}
+.footer-area a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0; 
+}
+.footer-area {
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 115px 0;
+    padding-left: 0px;
+    width: 100%;
+    position: absolute;
+
+}
+.header-link{
+    color:#222;
+    font-weight: 700;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: inherit;
+}
+
+ul, li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.bright-text{                
+    font-weight:700;
+    letter-spacing: 1px
+}
+.list-group-item-fix{
+    letter-spacing: 2px; 
+    font-weight: 500;
+    border:0px !important;
+    background-color: #333 !important; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bright-text,.title, .link-color{
+    color: #f8f8f8 !important;            
+}
+
+.widget-title{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: normal;
+    margin-bottom: 25px;
+    font-family: inherit;
+}
+.widget{
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3); 
+}
+.widget, .widget-override,.title-aria{               
+    padding:25px;    
+    margin-bottom: 20px;
+}
+.widget-override,.focus-novel-aria{
+    background: #fbf9ff;
+
+}
+.focus-novel-aria{
+    padding:20px 20px 0
+}
+.title-aria{
+    background: #333;
+    margin-top: 10px;
+}
+.title{
+    margin:50px;
+    font-weight:700;
+    font-size: 30px;
+    text-align: center;               
+}
+.novel-group{
+    margin-top:30px;
+    width:100%;
+
+}         
+.small-text{
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 1px;
+}
+.btn-fix, .btn-link {
+    background: #28a745!important;
+    color:#fff;
+    font-family: inherit;
+    height:40px;
+    border-radius: 2px;
+
+}
+.btn-link{                                
+
+    font-size: 14px;
+    text-align: center;
+    padding-top: 9px;
+}
+.thumbnail-fix{
+    width:100%;
+    height:100px;
+}
+.float-right{
+    margin-left: 55%;
+}
+.newNovel-group{
+    margin-bottom: 5px;
+    margin-top: 10px
+}
+select{
+    background: #fff;
+    font-family: inherit;
+    height:40px;
+}
+.black-page{
+    background-color: #333;                
+}
+.bright-page{
+    background: #eee;
+}
+.btn-link-permanent{
+    margin: 8px 10px;
+    width: 100px;
+}
+.card-img{
+
+    width: 100%;
+    vertical-align: middle;
+}
+.card-info-aria{
+    padding-left:  0px;
+}
+.card-info{
+    height: 30px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+.new-novel-image{
+    height: 80px; 
+    width:100%;
+}
+
+.novel-wrap{
+    margin-bottom:20px;
+    line-height: 2;
+}
+
+.carousel-control-aria{
+    position: absolute;
+    right: 20px;
+    top: -65px;
+    display: inline;
+    border: 1px solid #222; 
+    padding: 5px; 
+    background: #fff; 
+    color: #222
+}
+.carousel-control-color{
+    color: #222;
+    transition: all 0.3s linear 0s;
+}
+.carousel-control-color:hover{
+    color: #f9cc41;
+}
+.novel-thumbnail{
+    padding: 5px;
+}
+.novel-info{
+    padding: 0 20px;
+}
+.chapter-content{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 500;
+    line-height: normal;               
+}
+.novel-tab{
+    padding: 0px;
+    background: #fff;
+    margin: 20px 0 20px;
+    border: 1px solid #333;
+}
+.link-chapter-aria{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.link-chapter-aria select{
+    display: inline-block;
+}
+.small-text{
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 1px;
+}
+.novel-name{
+    font-weight: 700;
+    font-size: 15px;
+}
+.link-categories-aria{
+    padding-left: 0px;
+
+}
+.link-categories{
+    color: #8f8f8f;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.link-categories-aria ul li{
+    padding:10px;
+    border-bottom: 1px solid #eee;
+}
+.link-categories-aria ul li a{
+    text-decoration: none;   
+    transition: all 0.3s linear 0s;
+}
+.link-categories-aria ul li a:hover{
+    color: #f9cc41;
+}
+.statistical{
+    color: #8f8f8f;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.chapter-box{
+    padding: 5px 10px 5px;
+    margin: 0px;
+    background: black;
+    border-radius: 0px !important;
+}
+.chapter-title{
+    font-weight: 500;
+    font-size:20px;
+    letter-spacing: 2px;               
+    color: #fff;
+}
+.chapter-tab{
+    padding: 10px 20px ;
+}
+
+.card-info-text{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    -webkit-line-clamp: 4;
+    height: 80px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: #8f8f8f;
+}
+
+.navbar-nav > li > .dropdown-menu {     
+    background-color: #333 
+}
+.navbar-nav > li > .dropdown-menu a{   
+    color: #fff  
+}
+.navbar-nav > li > .dropdown-menu a:hover{                   
+    color: #333 !important;
+    font-weight: 500
+}
+.top-aria{
+    padding: 0 0px 10px;
+    margin-bottom: 20px;
+}
+.list-aria{
+    margin-bottom: 20px;
+    min-height: 500px;
+}
+.dorpdown-menu-content{
+    padding: 10px 0;
+    letter-spacing: 1.5px
+}
+
+.view{
+    padding: 5px;                
+}
+
+.view:hover img{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.photostory-title{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.container-fluid ul li a:hover{
+    color: #fff !important;
+    border-bottom: 2px solid #fff !important;
+}
+.focus-novel-box{
+    display: none;
+}
+.focus-novel-box a:hover, .focus-novel a:hover, footer ul li a:hover,.list-group-item a:hover{                
+    text-decoration: none;     
+
+}
+.focus-novel{
+    padding: 5px;
+    transition: all 0.3s linear 0s;
+}
+.focus-novel:hover {
+    background: #f9cc41;
+}
+.view{
+    padding: 5px;                
+}
+
+.view:hover img{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.photostory-title{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.photostory-aria{
+    background: #262533;;
+    padding:20px 40px;
+    border-top: 5px solid ;
+    border-color: #ffcc66;
+    margin-bottom: 20px;
+}
+.container-fluid ul li a:hover{
+    color: #fff !important;
+    border-bottom: 2px solid #fff !important;
+}
+.newNovel-group a:hover{
+    color:black!important;
+}
+.btn-success-override{
+    background: #28a745 !important;
+    border-radius: 0!important;
+}
+.contact,.login-link{
+    font-weight: 400;
+    letter-spacing: 1px;   
+    color: #fff;
+    margin-top: -40px;
+}
+.contact{
+    float: left;
+}
+.contact-aria{
+    display: block;
+    padding: 20 0;
+    margin-bottom: 20px;
+}
+.contact-info-aria{
+    display: inline-block;
+}
+.contact-item{
+    padding:10px;
+}
+.contact-item a{
+    text-decoration: none!important;
+}
+.contact-info{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #333;
+}
+.contact-content{
+    transition: all 0.3s linear 0s;
+    color: #888888;
+    font-weight: 400;
+}
+.contact-item a:hover{
+    color: #f9cc41
+}
+
+.login-link{  
+    float: right;   
+}
+.login-link a{
+    text-decoration: none!important;
+    color: #fff ;
+    transition: all 0.3s linear 0s;
+}
+.login-link a:hover{
+    color: #28a745;
+}
+.title-aria-background{
+    padding: 70px;
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    position: relative;
+} 
+.navbar-override{
+    border-radius: 0!important; 
+    position: relative; 
+    margin-top: -20px
+}
+.nav-link:hover{
+    background: #ffcc66 !important ;
+    color: #fff !important;
+}
+.nav-tabs-override li a{
+    transition: all 0.3s linear 0s!important;
+    color: #f9cc41!important;
+}
+.nav-tabs-override li a:hover{
+    background: #f9cc41 !important ;
+    color: #fff !important;
+}
+.blog-pagination{
+    text-align: center;
+}
+
+.blog-pagination .page-link {
+    font-size: 14px;
+    position: relative;
+    display: block;
+    padding: 0;
+    text-align: center; 
+    margin-left: -1px;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0 !important;
+    color: #8a8a8a;
+    border: 1px solid #f0e9ff;
+    margin-right: 10px;
+
+
+    i,span{
+        font-size: 13px;
+    }
+
+}
+
+.pagination-override > .active > a,.pagination-override > .active > a:focus,.blog-pagination.active
+{  
+        background-color: #fbf9ff !important;
+        border-color: #f0e9ff !important;
+        color: #888888 !important;
+    }
+
+
+
+
+.page-link:hover{
+    background: #f9cc41 !important;
+    color: #fff !important;
+}
